@@ -322,6 +322,7 @@ body{
     background-color: red;
     font-weight: bold;
     color: white;
+    cursor: pointer;
     
 
 
@@ -378,6 +379,7 @@ body{
     font-weight: bold;
     font-size: 18px;
     color: aliceblue;
+    cursor: pointer;
     
 }
 .right4{
@@ -509,11 +511,13 @@ body{
     height: 60%;
     width: 80%;
     border-radius: 50px;
+    cursor: pointer;
     
 }
 .oone h2{
     font-size: 19px;
     margin-left: 10px;
+    cursor: pointer;
 
 }
 .ttwo{
@@ -546,6 +550,7 @@ body{
     width: 80%;
     border-radius: 50px;
     /* margin-right: -20px; */
+    cursor: pointer;
     
 
 
@@ -553,6 +558,7 @@ body{
 .ttwo h2{
     font-size: 19px;
     margin-right: 145px;
+    cursor: pointer;
     
  
 
@@ -583,12 +589,14 @@ body{
     height: 60%;
     width: 80%;
     border-radius: 50px;
+    cursor: pointer;
     
 
 }
 .threee h2{
     font-size: 19px;
     margin-left: 10px;
+    cursor: pointer;
 }
 .page5dot5{
     height: 40vh;
@@ -637,6 +645,7 @@ body{
     border-radius: 7px;
     background-size: cover;
     margin-left: 40px;
+    cursor: pointer;
 
 }
 .img2{
@@ -645,6 +654,7 @@ body{
     background-image: url(../images/gallery3.webp);
     border-radius: 7px;
     background-size: cover;
+    cursor: pointer;
 
 }
 .img3{
@@ -654,6 +664,7 @@ body{
     border-radius: 7px;
     background-size: cover;
     margin-right: 40px;
+    cursor: pointer;
 
 }
 .hold6{
@@ -672,6 +683,7 @@ body{
     background-size: cover;
     border-radius: 7px;
     margin-left: 40px;
+    cursor: pointer;
 
 }
 .img5{
@@ -680,6 +692,7 @@ body{
     background-image: url(../images/gallery5.webp);
     border-radius: 7px;
     background-size: cover;
+    cursor: pointer;
 
 }
 .img6{
@@ -689,6 +702,7 @@ body{
     border-radius: 7px;
     background-size: cover;
     margin-right: 40px;
+    cursor: pointer;
 
 }
 .page6dot2{
@@ -778,6 +792,7 @@ body{
     border: none;
     color: #27b36a;
     border: 1px solid rgb(91, 236, 91);
+    cursor: pointer;
 
 }
 .sec p{
@@ -847,6 +862,7 @@ body{
     margin-top: 20px;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 
 
 }
@@ -1128,6 +1144,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     color: #f0f8ff;
+    cursor: pointer;
 
 
 }
@@ -1152,4 +1169,34 @@ body{
     font-weight: 100;
 }
 
+@media screen and (max-width: 768px) {
+body {
+    padding: 10px;
+  }
 
+  h1, h2, h3 {
+    font-size: 1.5rem; 
+    text-align: center;
+  }
+
+  .container, .section, .row {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button, .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
