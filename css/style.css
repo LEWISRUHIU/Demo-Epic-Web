@@ -1355,7 +1355,7 @@ body{
         height: max-content;
         width: 50%;
         background-image:url(../images/about1.webp) ;
-        background-size: cover;
+        background-size: 100 100;
         background-position: center;
         background-repeat: no-repeat;
         display: flex;
@@ -1384,7 +1384,7 @@ body{
         height: max-content;
         flex-wrap: wrap;
         width: 95%;
-        background-image: url(../images/about1.webp);
+        background-image: url(../images/pexels-jean-paul-wettstein-677916508-33834640.jpg);
         background-size: cover;
         /* display: flex;
         justify-content: center;
@@ -1421,6 +1421,7 @@ body{
     }
     .right1{
         height: max-content;
+        flex-wrap: wrap;
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -1550,6 +1551,7 @@ body{
     }
     .holdt{
         height: max-content;
+        flex-wrap: wrap;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -1573,7 +1575,7 @@ body{
     .second{
         height: max-content;
         flex-wrap: wrap;
-        width: 70%;
+        width: 60%;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -1585,6 +1587,8 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        box-shadow: 3px 3px 3px 3px black;
+        margin-top: 10px;
 
     } 
     .sec h2{
@@ -1594,7 +1598,8 @@ body{
         background-color: #27b36a;
         color: black;
         height: 40px;
-        width: 90%;
+        width: 60%;
+        box-shadow: 2px 2px 2px 2px #000000;
     }
     .sec p{
         margin-left: 35px;
@@ -1602,7 +1607,8 @@ body{
 
     .third{
         height: max-content;
-        width: 70%;
+        width: 60%;
+        margin-top: 10px;
     }
     .thir{
         height: max-content;
@@ -1611,7 +1617,11 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        box-shadow: 3px 3px 3px 3px black;
 
+    }
+    .thir h3{
+        margin-top: 10px;
     }
     .thir p{
         margin-left: 20px;
@@ -1620,8 +1630,9 @@ body{
     }
     .thir button{
         height: 40px;
-        width: 90%;
+        width: 60%;
         background-color: black;
+        box-shadow: 2px 2px 2px 2px #000000;
     }
     .page8{
         height: max-content;
@@ -1665,6 +1676,7 @@ body{
     }
     .half{
         height: max-content;
+        flex-wrap: wrap;
         width: 95%;
         border-radius: 10px;
         border: none;
@@ -1708,6 +1720,7 @@ body{
     }
     .page9{
         height: max-content;
+        flex-wrap: wrap;
         width: 95%;
         display: flex;
         justify-content: center;
@@ -1730,15 +1743,16 @@ body{
         margin-left: -20px;
     }
     .details input{
-        height: 30px;
+        height: 35px;
         background-color: #000000;
     }
     .details button{
-        height: 50px;
-        width: 95%;
+        height: 60px;
+        width: 55%;
         border-radius: 20px;
         background-color: #18dd53;
         color: #000000;
+        margin-left: 100px;
     }
     .end{
         height: max-content;
