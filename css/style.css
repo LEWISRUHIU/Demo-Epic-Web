@@ -1355,7 +1355,8 @@ body{
         height: max-content;
         width: 50%;
         background-image:url(../images/about1.webp) ;
-        background-size: 100 100;
+        border-radius: 20px;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         display: flex;
@@ -1379,13 +1380,15 @@ body{
         font-weight: bold;
         margin-left: 26px;
         cursor: pointer;
+        /* margin-top: -5px; */
+        margin-bottom: 5px;
     }
     .page1{
         height: max-content;
         flex-wrap: wrap;
         width: 95%;
         background-image: url(../images/pexels-jean-paul-wettstein-677916508-33834640.jpg);
-        background-size: cover;
+        background-size: 100 100;
         /* display: flex;
         justify-content: center;
         align-items: center;
@@ -1398,7 +1401,15 @@ body{
     .page2{
         height: max-content;
         flex-wrap: wrap;
+        width: 95%;
 
+
+    }
+    .bottom{
+        height: max-content;
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
 
     }
     .sideL{
@@ -1414,26 +1425,75 @@ body{
     .page3{
         height: max-content;
         flex-wrap: wrap;
+        width: 95%;
         display: flex;
         /* justify-content: center;
         align-items: center; */
         flex-direction: column;
     }
+    /* .left1{
+        height: 320px;
+        flex-wrap: wrap;
+        width: 100%;
+    } */
     .right1{
         height: max-content;
         flex-wrap: wrap;
-        width: 90%;
-        display: flex;
+        width: 100%;
+        align-items: center;
         flex-direction: column;
+    }
+    .right1 h1{
+        margin-left: -20px;
+    }
+
+    .right1 p{
+        width: 90%;
+        text-align: center;
+        margin-left: -10px;
+    }
+    .right1 h4{
+        
     }
     .right1 button{
         height: 40px;
         width: 30%;
         margin-bottom: 39px;
     }
+    .line1{
+        height: max-content;
+        width: 90%;
+        display: flex;
+
+        
+    }
+    .line1 h3{
+        margin-left: -20px;
+    }
+
+    .line2{
+        height: max-content;
+        width: 90%;
+        display: flex;
+        
+    }
+  
+    
+    .line2 h3{
+        margin-left: -20px;
+    }
+    .line3{
+        height: max-content;
+        width: 90%;
+        display: flex;
+        
+    }
+    .line3 h3{
+        margin-left: -20px;
+    }
     .left1{
         height: 290px;
-        width: 90%;
+        width: 100%;
         background-image: url(/images/contact01.webp);
         /* display: flex; */
 
@@ -1441,6 +1501,7 @@ body{
     .page4{
         height: max-content;
         flex-wrap: wrap;
+        width: 95%;
         display: flex;
         flex-direction: row;
         margin-top: 70px;
@@ -1474,6 +1535,7 @@ body{
     .page5{
         height: max-content;
         flex-wrap: wrap;
+        width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1521,6 +1583,7 @@ body{
     .page5dot5{
         height: max-content;
         flex-wrap: wrap;
+        width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1529,6 +1592,7 @@ body{
     .page6{
         height: 300px;
         flex-wrap: wrap;
+        width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1537,6 +1601,7 @@ body{
     .page6dot2{
         height: max-content;
         flex-wrap: wrap;
+        width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1545,6 +1610,7 @@ body{
     .page7{
         height: max-content;
         flex-wrap: wrap;
+        width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1637,6 +1703,7 @@ body{
     .page8{
         height: max-content;
         flex-wrap: wrap;
+        width:95%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1714,6 +1781,7 @@ body{
     .page9hold{
         height: max-content;
         flex-wrap: wrap;
+        width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1757,6 +1825,7 @@ body{
     .end{
         height: max-content;
         flex-wrap: wrap;
+        width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
