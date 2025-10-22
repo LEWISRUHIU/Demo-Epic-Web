@@ -1439,7 +1439,9 @@ body{
     .right1{
         height: max-content;
         flex-wrap: wrap;
-        width: 100%;
+        width: 95%;
+        display: flex;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
     }
@@ -1458,7 +1460,8 @@ body{
     .right1 button{
         height: 40px;
         width: 30%;
-        margin-bottom: 39px;
+        margin-bottom: 70px;
+        margin-right: 100px;
     }
     .line1{
         height: max-content;
@@ -1469,6 +1472,8 @@ body{
     }
     .line1 h3{
         margin-left: -20px;
+        border: none;
+        margin: 10px;
     }
 
     .line2{
@@ -1481,6 +1486,8 @@ body{
     
     .line2 h3{
         margin-left: -20px;
+        border: none;
+        margin: 10px;
     }
     .line3{
         height: max-content;
@@ -1490,6 +1497,8 @@ body{
     }
     .line3 h3{
         margin-left: -20px;
+        border: none;
+        margin: 10px;
     }
     .left1{
         height: 290px;
